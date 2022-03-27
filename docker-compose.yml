@@ -12,6 +12,8 @@ services:
     depends_on:
       - mysql
       - redis
+    links:
+      - mysql
     restart: unless-stopped
     tty: true
     working_dir: /var/www
