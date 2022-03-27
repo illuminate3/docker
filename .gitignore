@@ -20,7 +20,7 @@
 # !wwwroot
 # wwwroot/*
 
-!nginx
-nginx/*
-!nginx/conf.d/default.conf
-!nginx/conf.d/demo.conf
+# !nginx
+# nginx/*
+# !nginx/conf.d/default.conf
+# !nginx/conf.d/demo.conf
